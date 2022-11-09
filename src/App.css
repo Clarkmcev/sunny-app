@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Bellefair'; /*a name to be used later*/
+  src: url('./fonts/Bellefair-Regular.ttf'); /*URL to font*/
+}
+
+body {
+  margin: 0
+}
+
+.footer {
+  background-color: #93d1c2;
+  color: #509687
+}
+
