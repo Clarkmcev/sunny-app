@@ -21,22 +21,21 @@ function Home() {
             WE ARE CREATIVES
         <img src={arrow} alt="" className="text-center m-auto mt-20" />
         </div>
-        <img src={header} alt="" className="h-screen w-screen" />
-
-        <div className="grid grid-cols-2">
-            <div className="col-span-1 m-auto max-w-2xl">
+        <img src={header} alt="" className="h-screen w-full object-cover" />
+        <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="col-span-1 text-left m-auto p-10 max-w-2xl">
                 <h1 className="py-10 text-5xl font-bold">Transform your brand</h1>
                 <p className="text-2xl">We are a full-service creative agency specializing in helping brands grow fast.
                     Engage your clients through compelling visuals that do most of the marketing for you.</p>
-                <button className="py-10 text-2xl">Learn more</button>
+                <button className="text-2xl">Learn more</button>
             </div>
-            <img className="col-span-1 w-full" src={egg} alt="" />
-            <img className="col-span-1 w-full" src={standOut} alt="" />
-            <div className="col-span-1 m-auto max-w-2xl">
-                <h1 className="py-10 text-5xl font-bold">Stand out to the right audience</h1>
+            <img className="col-span-1 w-full h-full" src={egg} alt="" />
+            <img className="col-span-1 w-full h-full" src={standOut} alt="" />
+            <div className="col-span-1 text-left m-auto p-10 max-w-xl">
+                <h1 className=" py-10 text-5xl font-bold">Stand out to the right audience</h1>
                 <p className="text-2xl">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
   and extend your brand in digital places.</p>
-                <button  className="py-10 text-2xl">Learn more</button>
+                <button className="text-2xl btn">Learn more</button>
             </div>
             <div className="col-span-1 w-full relative">
                 <img  src={cherry} alt="" className="w-full"/>
@@ -56,8 +55,8 @@ function Home() {
         </div>
         <div className="p-20 flex flex-col justify-center items-center">
             <div className="text-3xl p-10 font-bellefair">CLIENT TESTIMONIALS</div>
-            <div className="flex justify-center space-x-6 ">
-                <div className="max-w-4xl flex flex-col items-center text-center space-y-6">
+            <div className="flex flex-wrap justify-center space-x-6 ">
+                <div className="max-w-xl flex flex-col items-center text-center space-y-6">
                     <img src={imageEmily} alt="" className="rounded-full"/>
                     <p className="text-2xl">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
                     <div>
@@ -65,7 +64,7 @@ function Home() {
                         <h2>Marketing Director</h2>
                     </div>
                 </div>
-                <div className="max-w-4xl flex flex-col items-center text-center space-y-6">
+                <div className="max-w-xl flex flex-col items-center text-center space-y-6">
                     <img src={imageJennie} alt="" className="rounded-full"/>
                     <p className="text-2xl">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
                     <div>
@@ -73,7 +72,7 @@ function Home() {
                         <h2>Chief Operating Officer</h2>
                     </div>
                 </div>
-                <div className="max-w-4xl flex flex-col items-center text-center space-y-6">
+                <div className="max-w-xl flex flex-col items-center text-center space-y-6">
                     <img src={imageThomas} alt="" className="rounded-full"/>
                     <p className="text-2xl">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
                     <div>

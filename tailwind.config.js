@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         bellefair: ["Bellefair", "sans-serif"],
       },
+      colors: {
+        first: "#509687",
+      },
     },
   },
   plugins: [],

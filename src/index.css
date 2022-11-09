@@ -15,3 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer base {
+  button {
+    @apply py-2 px-5 my-10 rounded-2xl bg-first text-white font-thin hover:scale-105 duration-200
+  }
+}
