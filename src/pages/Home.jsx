@@ -37,20 +37,20 @@ function Home() {
   and extend your brand in digital places.</p>
                 <button className="text-2xl btn">Learn more</button>
             </div>
-            <div className="col-span-1 w-full relative">
-                <img  src={cherry} alt="" className="w-full"/>
-                <div className="absolute bottom-44 left-44 max-w-2xl text-center">
+            <div className="col-span-1 w-full bg-first bg-auto">
+            {/* <img  src={cherry} alt="" className="w-full"/> */}
+                {/* <div className="bottom-44 left-44 max-w-2xl text-center">
                     <h1 className="py-10 text-5xl font-bold">Graphic design</h1>
                     <p className="text-2xl">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
                     clients’ attention.</p>
-                </div>
+                </div> */}
             </div>
-            <div className="col-span-1 w-full relative">
-                <img  src={photo} alt="" className="w-full"/>
-                <div className="absolute bottom-44 left-44 max-w-2xl text-center">
+            <div className="col-span-1 w-full bg-second bg-auto">
+            {/* <img  src={photo} alt="" className="w-full"/> */}
+                {/* <div className=" max-w-2xl text-center my-44">
                     <h1 className="py-10 text-5xl font-bold">Photography</h1>
                     <p className="text-2xl">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="p-20 flex flex-col justify-center items-center">

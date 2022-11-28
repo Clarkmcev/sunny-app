@@ -9,6 +9,10 @@ module.exports = {
       colors: {
         first: "#509687",
       },
+      backgroundImage: {
+        first: "url('./images/desktop/image-graphic-design.jpg')",
+        second: "url('./images/desktop/image-photography.jpg')",
+      },
     },
   },
   plugins: [],
